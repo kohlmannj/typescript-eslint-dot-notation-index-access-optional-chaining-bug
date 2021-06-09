@@ -130,7 +130,7 @@ Please be specific here - list the exact lines and messages that caused errors
 
 The last line of the test TS code, `dingus?.nested['hello'];`, has this ESLint error:
 
-> ["hello"] is better written in dot notation.eslint@typescript-eslint/dot-notation
+> `["hello"]` is better written in dot notation. `eslint@typescript-eslint/dot-notation`
 
 **Additional Info**
 
@@ -145,7 +145,7 @@ Please run your lint again with the --debug flag, and dump the output below.
 i.e. eslint --ext ".ts,.js" src --debug
 -->
 
-<details><summary>Output from <code>eslint --ext ".ts" src --debug</code>
+<details><summary>Output from <code>eslint --ext ".ts" src --debug</code></summary>
 
 Note: You can rerun this command in https://github.com/kohlmannj/typescript-eslint-dot-notation-index-access-optional-chaining-bug with the `yarn lint:debug` script.
 
@@ -214,15 +214,17 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-➜  typescript-eslint-dot-notation-index-access-optional-chaining-bug git:(main) ✗ 
+➜  typescript-eslint-dot-notation-index-access-optional-chaining-bug git:(main) ✗
 ```
+
+</details>
 
 **Versions**
 
-| package                            | version |
-| ---------------------------------- | ------- |
+| package                            | version  |
+| ---------------------------------- | -------- |
 | `@typescript-eslint/eslint-plugin` | `4.26.1` |
 | `@typescript-eslint/parser`        | `4.26.1` |
-| `TypeScript`                       | `4.3.2` |
+| `TypeScript`                       | `4.3.2`  |
 | `ESLint`                           | `7.28.0` |
 | `node`                             | `14.5.0` |
