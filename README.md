@@ -1,3 +1,5 @@
+# \[dot-notation] False positive with optional chaining and `allowIndexSignaturePropertyAccess: true` ([typescript-eslint/typescript-eslint#3510](https://github.com/typescript-eslint/typescript-eslint/issues/3510))
+
 <!--
 If you have a problem with a specific rule, please begin your issue title with [rulename] to make it easier to search for.
 I.e. "[no-unused-vars] False positive when fooing the bar"
