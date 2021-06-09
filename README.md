@@ -138,6 +138,11 @@ This GitHub repo contains this same test code and configs: https://github.com/ko
 
 This is a reproduction of the issue that @eugene-stativka noted here: https://github.com/typescript-eslint/typescript-eslint/pull/3361#issuecomment-848858332
 
+Relates to:
+- [typescript-eslint/typescript-eslint#3104](https://github.com/typescript-eslint/typescript-eslint/issues/3104)
+- [typescript-eslint/typescript-eslint#3361](https://github.com/typescript-eslint/typescript-eslint/pull/3361)
+- [typescript-eslint/typescript-eslint#3454](https://github.com/typescript-eslint/typescript-eslint/issues/3454) (maybe?)
+
 <!--
 Did eslint throw an exception?
 
