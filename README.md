@@ -216,7 +216,6 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ➜  typescript-eslint-dot-notation-index-access-optional-chaining-bug git:(main) ✗
 ```
-
 </details>
 
 **Versions**
