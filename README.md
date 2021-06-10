@@ -132,7 +132,7 @@ Please be specific here - list the exact lines and messages that caused errors
 
 The last line of the test TS code, `dingus?.nested['hello'];`, has this ESLint error:
 
-> `["hello"]` is better written in dot notation. `eslint@typescript-eslint/dot-notation`
+> `["hello"]` is better written in dot notation. `eslint(typescript-eslint/dot-notation)`
 
 **Additional Info**
 
